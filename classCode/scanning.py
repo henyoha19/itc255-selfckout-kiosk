@@ -6,14 +6,13 @@ class Scanning():
         self.scanningdate=datetime.datetime.now()
        
     
-    def getscanningnum(self):
+    def getScanningnum(self):
         return self.scanningnum
 
-    def getScandate(self):
+    def getScanningdate(self):
         return self.scanningdate
 
-    def __str__(self):
-        return self.
+
 
 
 
