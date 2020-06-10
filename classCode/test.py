@@ -3,6 +3,7 @@ from customer import Customer
 from scanning import Scanning
 from item import Item
 import datetime
+
 class CustomerTest(unittest.TestCase):
     def setUp(self):
         self.customer=Customer(1 ,'George','Tom','3906 S Kenyon street')
