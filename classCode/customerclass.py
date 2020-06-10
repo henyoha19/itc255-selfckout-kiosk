@@ -18,8 +18,5 @@ class Customer():
     def getcustomerAddress(self):
         return self.customerAddress
 
-    def getcustomerAddress(self):
-        return self.customerAddress
-
     def __str__(self):
         return str(self.customerAddress) + " " + self.customerAddress
